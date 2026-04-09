@@ -1,0 +1,16 @@
+{
+  "name": "uptime-monitor",
+  "version": "1.0.0",
+  "description": "Uptime monitor for kitcbe.com and portal.kitcbe.com using Cloudflare Workers",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "kv:create": "wrangler kv namespace create UPTIME_KV",
+    "kv:create:preview": "wrangler kv namespace create UPTIME_KV --preview"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
