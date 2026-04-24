@@ -124,9 +124,3 @@ Edit `src/index.js` to change:
 - **`SITES`** — add/remove URLs to monitor
 - **`MAX_HISTORY`** — number of check records to retain per site (default: 100)
 - **Timeout** — per-site request timeout in milliseconds (default: 10000ms)
-
----
-
-## 📜 License
-
-MIT
